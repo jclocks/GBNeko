@@ -34,17 +34,17 @@
                     "collisionGroup": "1",
                     "symbol": "actor_0",
                     "script": [],
-                    "startScript": [
+                    "startScript": [],
+                    "updateScript": [
                         {
                             "command": "EVENT_ACTOR_EMOTE",
                             "args": {
                                 "actorId": "$self$",
-                                "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                                "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1",
+                                "__comment": true
                             },
-                            "id": "a81942f0-c681-4f39-afa5-01db9c2ef796"
-                        }
-                    ],
-                    "updateScript": [
+                            "id": "3ea99a53-8686-4f39-a926-0160ea8a98db"
+                        },
                         {
                             "command": "EVENT_ACTOR_MOVE_TO",
                             "args": {
@@ -61,10 +61,161 @@
                                 },
                                 "moveType": "diagonal",
                                 "useCollisions": true,
-                                "__comment": false,
+                                "__comment": true,
                                 "__collapse": false
                             },
                             "id": "6dda5f55-d33b-4ea4-8851-c568f5ea5015"
+                        },
+                        {
+                            "command": "EVENT_IF",
+                            "args": {
+                                "condition": {
+                                    "type": "ne",
+                                    "valueA": {
+                                        "type": "property",
+                                        "target": "player",
+                                        "property": "xpos"
+                                    },
+                                    "valueB": {
+                                        "type": "variable",
+                                        "value": "2"
+                                    }
+                                },
+                                "__collapseElse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                                        },
+                                        "id": "f282d881-ab08-4db3-8812-4ce3bab76c4c"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "property",
+                                                "target": "$self$",
+                                                "property": "xpos"
+                                            },
+                                            "y": {
+                                                "type": "property",
+                                                "target": "$self$",
+                                                "property": "ypos"
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "bc99d272-e9c4-47bc-8372-595bb18ae3fc"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_VALUE",
+                                        "args": {
+                                            "variable": "2",
+                                            "value": {
+                                                "type": "property",
+                                                "target": "player",
+                                                "property": "xpos"
+                                            }
+                                        },
+                                        "id": "938e4895-72b9-4327-8553-ad7cd365c4ef"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_VALUE",
+                                        "args": {
+                                            "variable": "3",
+                                            "value": {
+                                                "type": "property",
+                                                "target": "player",
+                                                "property": "ypos"
+                                            }
+                                        },
+                                        "id": "b1e39445-9e55-48f4-86f7-00492bd56668"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "5018ac50-f072-4948-ab3b-18bb42b62c1e"
+                        },
+                        {
+                            "command": "EVENT_IF",
+                            "args": {
+                                "condition": {
+                                    "type": "ne",
+                                    "valueA": {
+                                        "type": "property",
+                                        "target": "player",
+                                        "property": "ypos"
+                                    },
+                                    "valueB": {
+                                        "type": "variable",
+                                        "value": "3"
+                                    }
+                                },
+                                "__collapseElse": true,
+                                "__collapse": false
+                            },
+                            "children": {
+                                "true": [
+                                    {
+                                        "command": "EVENT_ACTOR_EMOTE",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                                        },
+                                        "id": "6f507277-e7af-4586-8105-5bdf6450cd7e"
+                                    },
+                                    {
+                                        "command": "EVENT_ACTOR_MOVE_TO",
+                                        "args": {
+                                            "actorId": "$self$",
+                                            "x": {
+                                                "type": "property",
+                                                "target": "$self$",
+                                                "property": "xpos"
+                                            },
+                                            "y": {
+                                                "type": "property",
+                                                "target": "$self$",
+                                                "property": "ypos"
+                                            },
+                                            "moveType": "horizontal",
+                                            "useCollisions": false
+                                        },
+                                        "id": "63ad7031-71d4-42cb-b90c-b2c9913d0a47"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_VALUE",
+                                        "args": {
+                                            "variable": "2",
+                                            "value": {
+                                                "type": "property",
+                                                "target": "player",
+                                                "property": "xpos"
+                                            }
+                                        },
+                                        "id": "b0caba3b-00c5-4dc0-a73f-0692d35e667b"
+                                    },
+                                    {
+                                        "command": "EVENT_SET_VALUE",
+                                        "args": {
+                                            "variable": "3",
+                                            "value": {
+                                                "type": "property",
+                                                "target": "player",
+                                                "property": "ypos"
+                                            }
+                                        },
+                                        "id": "e8354239-b0df-4430-8ed5-da16794cf3ea"
+                                    }
+                                ],
+                                "false": []
+                            },
+                            "id": "a571a16c-94ff-4add-9526-763f8ed70fa5"
                         }
                     ],
                     "hit1Script": [],
@@ -1619,7 +1770,17 @@
         {
             "id": "bce2a294-40b1-41fa-9ff3-7f78973b3fb1__L0",
             "name": "Local 0",
-            "symbol": "var_local_0"
+            "symbol": "var_local_1"
+        },
+        {
+            "id": "2",
+            "name": "Cat Memory X Coord",
+            "symbol": "var_cat_memory_x_coord"
+        },
+        {
+            "id": "3",
+            "name": "Cat Memory Y Coord",
+            "symbol": "var_cat_memory_y_coord"
         }
     ],
     "engineFieldValues": [

@@ -99,16 +99,16 @@
                                             "actorId": "$self$",
                                             "x": {
                                                 "type": "property",
-                                                "target": "$self$",
+                                                "target": "player",
                                                 "property": "xpos"
                                             },
                                             "y": {
                                                 "type": "property",
-                                                "target": "$self$",
+                                                "target": "player",
                                                 "property": "ypos"
                                             },
                                             "moveType": "horizontal",
-                                            "useCollisions": false
+                                            "useCollisions": true
                                         },
                                         "id": "bc99d272-e9c4-47bc-8372-595bb18ae3fc"
                                     },
@@ -175,16 +175,16 @@
                                             "actorId": "$self$",
                                             "x": {
                                                 "type": "property",
-                                                "target": "$self$",
+                                                "target": "player",
                                                 "property": "xpos"
                                             },
                                             "y": {
                                                 "type": "property",
-                                                "target": "$self$",
+                                                "target": "player",
                                                 "property": "ypos"
                                             },
                                             "moveType": "horizontal",
-                                            "useCollisions": false
+                                            "useCollisions": true
                                         },
                                         "id": "63ad7031-71d4-42cb-b90c-b2c9913d0a47"
                                     },
@@ -1768,11 +1768,6 @@
             "symbol": "var_player_y_coordinate"
         },
         {
-            "id": "bce2a294-40b1-41fa-9ff3-7f78973b3fb1__L0",
-            "name": "Local 0",
-            "symbol": "var_local_1"
-        },
-        {
             "id": "2",
             "name": "Cat Memory X Coord",
             "symbol": "var_cat_memory_x_coord"
@@ -1781,6 +1776,11 @@
             "id": "3",
             "name": "Cat Memory Y Coord",
             "symbol": "var_cat_memory_y_coord"
+        },
+        {
+            "id": "bce2a294-40b1-41fa-9ff3-7f78973b3fb1__L0",
+            "name": "Local 0",
+            "symbol": "var_local_1"
         }
     ],
     "engineFieldValues": [
