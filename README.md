@@ -9,3 +9,7 @@ This is early alpha software make in GB Studio and there are bound to be bugs. F
 The sprites for Neko and the Player Mouse are not mine, and are sourced from this sheet, which states the sprites are public domain: https://cdn-learn.adafruit.com/assets/assets/000/108/510/original/projects_neko_cat_spritesheet.bmp?1643643842
 
 ROM file for the game will be under /build.
+
+![Title Screen](documentation/img/1.png) ![Chasing Mouse](documentation/img/2.png)
+
+![Snoozing](documentation/img/3.png) ![Alerting](documentation/img/4.png)
