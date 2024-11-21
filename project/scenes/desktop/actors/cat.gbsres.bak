@@ -70,13 +70,6 @@
             "id": "f51f9284-2bc8-4979-88b6-8f9909530012"
           },
           {
-            "command": "EVENT_MUSIC_PLAY",
-            "args": {
-              "musicId": "55f1d988-34f8-4a57-a118-36a826789e31"
-            },
-            "id": "8587c46b-3b61-400e-bed6-aa0df54ec35c"
-          },
-          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "$self$",
@@ -92,14 +85,9 @@
               },
               "moveType": "horizontal",
               "useCollisions": true,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "bc99d272-e9c4-47bc-8372-595bb18ae3fc"
-          },
-          {
-            "command": "EVENT_MUSIC_STOP",
-            "args": {},
-            "id": "36b6f922-72e3-43d8-ac75-86965f8ac052"
           },
           {
             "command": "EVENT_SET_VALUE",
@@ -229,13 +217,6 @@
             "id": "e66c4a46-047e-469b-ae7e-aa8e3729691b"
           },
           {
-            "command": "EVENT_MUSIC_PLAY",
-            "args": {
-              "musicId": "55f1d988-34f8-4a57-a118-36a826789e31"
-            },
-            "id": "7da37a08-26ea-4823-94a0-b050efd41204"
-          },
-          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "$self$",
@@ -254,11 +235,6 @@
               "__collapse": true
             },
             "id": "63ad7031-71d4-42cb-b90c-b2c9913d0a47"
-          },
-          {
-            "command": "EVENT_MUSIC_STOP",
-            "args": {},
-            "id": "c4b40d12-8eba-4812-9200-146102e12812"
           },
           {
             "command": "EVENT_SET_VALUE",
