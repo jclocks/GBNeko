@@ -1,0 +1,23 @@
+{
+  "_resourceType": "scene",
+  "id": "1d9e9e99-8551-4c80-aced-d53332597ded",
+  "_index": 0,
+  "type": "TOPDOWN",
+  "name": "Desktop",
+  "symbol": "scene_1",
+  "x": 448,
+  "y": 30,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "b60a3064-714f-4fd7-9cc2-610482032102",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "playerSpriteSheetId": "13a2582e-44b8-4017-a5f0-0b583b81db24",
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

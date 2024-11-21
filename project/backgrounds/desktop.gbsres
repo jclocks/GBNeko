@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "b60a3064-714f-4fd7-9cc2-610482032102",
+  "name": "desktop",
+  "symbol": "bg_desktop",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "desktop.png",
+  "tileColors": "",
+  "autoColor": false
+}

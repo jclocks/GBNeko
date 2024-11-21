@@ -1,0 +1,36 @@
+{
+  "_resourceType": "script",
+  "id": "fc738733-eb56-4117-8fb5-c653dcd6de6f",
+  "name": "Credits to Title",
+  "symbol": "script_2",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 2,
+        "frames": 30
+      },
+      "id": "728d6b96-7ff4-4cf2-993c-900ec92c7e67"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1e1a28dd-5237-473c-a306-ab8db84d1654",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "d0385b6d-fbc3-4ef1-ba27-bfd97477fac0"
+    }
+  ]
+}

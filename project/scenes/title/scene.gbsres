@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "1e1a28dd-5237-473c-a306-ab8db84d1654",
+  "_index": 1,
+  "type": "LOGO",
+  "name": "Title",
+  "symbol": "scene_2",
+  "x": 272,
+  "y": 32,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "ecbd97a6-6cc2-4f6e-b9e9-bad5ac6bf676",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "7ff6837f-3126-491a-b65e-782339e8d137"
+      },
+      "id": "169eae5f-90f0-4b0a-8a84-13b2cb7552b0"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}

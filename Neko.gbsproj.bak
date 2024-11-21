@@ -4022,7 +4022,7 @@
         "showConnections": true,
         "showCollisionSlopeTiles": false,
         "showCollisionExtraTiles": false,
-        "worldScrollX": 0,
+        "worldScrollX": 84,
         "worldScrollY": 0,
         "zoom": 100,
         "sgbEnabled": false,

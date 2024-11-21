@@ -1,0 +1,37 @@
+{
+  "_resourceType": "script",
+  "id": "7ff6837f-3126-491a-b65e-782339e8d137",
+  "name": "Start to Play",
+  "symbol": "script_1",
+  "description": "",
+  "variables": {},
+  "actors": {},
+  "script": [
+    {
+      "command": "EVENT_AWAIT_INPUT",
+      "args": {
+        "input": [
+          "start"
+        ]
+      },
+      "id": "6040d2b1-d04e-4944-848b-05e309879eee"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "1d9e9e99-8551-4c80-aced-d53332597ded",
+        "x": {
+          "type": "number",
+          "value": 0
+        },
+        "y": {
+          "type": "number",
+          "value": 0
+        },
+        "direction": "",
+        "fadeSpeed": "2"
+      },
+      "id": "8e5e6929-010c-42c6-aac5-a94d0c7a14cd"
+    }
+  ]
+}

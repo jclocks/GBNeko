@@ -1,0 +1,30 @@
+{
+  "_resourceType": "variables",
+  "variables": [
+    {
+      "id": "0",
+      "name": "Player X Coordinate",
+      "symbol": "var_player_x_coordinate"
+    },
+    {
+      "id": "1",
+      "name": "Player Y Coordinate",
+      "symbol": "var_player_y_coordinate"
+    },
+    {
+      "id": "2",
+      "name": "Cat Memory X Coord",
+      "symbol": "var_cat_memory_x_coord"
+    },
+    {
+      "id": "3",
+      "name": "Cat Memory Y Coord",
+      "symbol": "var_cat_memory_y_coord"
+    },
+    {
+      "id": "bce2a294-40b1-41fa-9ff3-7f78973b3fb1__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
+    }
+  ]
+}

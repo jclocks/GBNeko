@@ -1,0 +1,30 @@
+{
+  "_resourceType": "scene",
+  "id": "1ffc9321-28c5-4b84-a5ac-95d18899be29",
+  "_index": 2,
+  "type": "LOGO",
+  "name": "Credits",
+  "symbol": "scene_3",
+  "x": 88,
+  "y": 32,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "111e58bb-77c1-4f97-8012-e2caa372d4df",
+  "tilesetId": "",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
+  "script": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "fc738733-eb56-4117-8fb5-c653dcd6de6f"
+      },
+      "id": "02ec92f0-1296-4bbc-89d2-92e42a9f864d"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "collisions": ""
+}
