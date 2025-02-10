@@ -16,13 +16,6 @@
   "autoFadeSpeed": 1,
   "script": [
     {
-      "command": "EVENT_MUSIC_PLAY",
-      "args": {
-        "musicId": "70f349fc-246e-447c-884d-79d60e468743"
-      },
-      "id": "44bd6805-773e-4911-bbac-ba62762f7946"
-    },
-    {
       "command": "EVENT_SET_INPUT_SCRIPT",
       "args": {
         "input": [
@@ -59,11 +52,17 @@
         ]
       },
       "id": "3772ea88-1f83-4b7c-b3a3-d68de7c16991"
+    },
+    {
+      "command": "EVENT_MUSIC_PLAY",
+      "args": {
+        "musicId": "70f349fc-246e-447c-884d-79d60e468743"
+      },
+      "id": "44bd6805-773e-4911-bbac-ba62762f7946"
     }
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "collisions": "",
-  "autoFadeEventCollapse": false
+  "collisions": ""
 }
